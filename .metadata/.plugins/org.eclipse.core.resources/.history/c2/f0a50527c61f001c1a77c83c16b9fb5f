@@ -1,0 +1,20 @@
+package fundamentos.exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio5 {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Entre com a Base do Triângulo: ");
+		double base = entrada.nextDouble();
+		
+		System.out.print("Entre com a Altura do Triângulo: ");
+		double altura = entrada.nextDouble();
+		
+		System.out.printf("%.2f * %.2f = %.2f ", base, altura, area);
+		
+		entrada.close();
+	}
+
+}
