@@ -1,0 +1,46 @@
+package controle.exercicios;
+
+import java.util.Scanner;
+//import java.util.Random;
+
+public class Exercicio6 {
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		//Random aleatorio = new Random();
+
+		int segredo = 1 + (int) (Math.random() * 100); //aleatorio.nextInt(100) +1;
+		int numero = 0;
+		int tentativas = 10;
+
+		System.out.print("Jogo da adivinhação você tem 10 chances!\n"
+				+ "Qual o número X?\n");
+		
+		
+		while( tentativas != 0) {
+			tentativas --;
+			
+			System.out.print("\nDigite um numero entre 0 e 100: ");
+			numero = entrada.nextInt();
+			if(numero != segredo) {
+				if(numero > segredo) {
+					System.out.printf("\nO número %d é > maior que X ", numero);
+					System.out.printf("Você ainda tem %d tentativas!", tentativas);
+				}else {
+					System.out.printf("\nO número %d é < menor que X ", numero);
+					System.out.printf("Você ainda tem %d tentativas!", tentativas);
+				}
+				
+			}else {
+				System.out.printf("Voce acertou, o valor de X é : %d", numero);
+				break;
+			}
+			
+			
+		}
+		
+		entrada.close();
+	}
+
+}
