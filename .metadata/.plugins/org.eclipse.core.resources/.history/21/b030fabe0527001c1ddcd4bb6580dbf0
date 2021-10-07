@@ -1,0 +1,17 @@
+package classe;
+
+public class DataTeste {
+	public static void main(String[] args) {
+		
+		Data dataAtual = new Data();
+		
+		dataAtual.dia = 16;
+		dataAtual.mes = 05;
+		dataAtual.ano = 1988;
+		
+		System.out.printf("A data de nascimento é: %d-%d-%d",dataAtual.dia, dataAtual.mes, dataAtual.ano);
+		
+		
+	}
+
+}
