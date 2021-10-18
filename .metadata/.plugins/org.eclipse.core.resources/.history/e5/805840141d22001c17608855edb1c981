@@ -1,8 +1,0 @@
-package controle.exercicios;
-
-public class Snippet {
-	public static void main(String[] args) {
-					System.out.println("\nUma condição não atendida!");
-	}
-}
-
