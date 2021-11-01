@@ -22,4 +22,6 @@
     <fullyQualifiedTypeName name="classe.Comida"/>
     <fullyQualifiedTypeName name="classe.Pessoa"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
